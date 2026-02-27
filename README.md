@@ -1,72 +1,174 @@
-<h1 align="center">Pizzeria | MEAN Stack Web App</h1>
+<h1 align="center">🍕 Pizzeria | MEAN Stack Full-Stack Web Application</h1>
 
 <p align="center">
-  A full-stack pizza ordering web application built with the <strong>MEAN stack</strong> (MongoDB, Express, Angular, Node.js).
+A modern <strong>Pizza Ordering Web Application</strong> built using the <strong>MEAN Stack</strong> (MongoDB, Express.js, Angular, Node.js) demonstrating end-to-end full-stack development.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-Frontend-red?logo=angular">
+  <img src="https://img.shields.io/badge/Node.js-Backend-green?logo=node.js">
+  <img src="https://img.shields.io/badge/Express.js-API-black?logo=express">
+  <img src="https://img.shields.io/badge/MongoDB-Database-brightgreen?logo=mongodb">
+  <img src="https://img.shields.io/badge/Status-Completed-success">
 </p>
 
 ---
 
-## 🏆 Skills Highlighted
-- **Front-End:** Angular, Bootstrap, Responsive UI
-- **Back-End:** Node.js, Express.js, REST APIs
-- **Database:** MongoDB, Mongoose ODM
-- **Tools & Practices:** Git, GitHub, npm, Angular CLI
+## 🚀 About The Project
+
+**Pizzeria** is a full-stack web application that allows users to browse pizzas, customize ingredients, manage cart items, and simulate an online ordering experience.
+
+This project showcases practical implementation of:
+
+* Full-stack architecture
+* RESTful API development
+* Angular component-based UI
+* Database integration using MongoDB
+* Client–Server communication
 
 ---
 
-## 📝 Table of Contents
+## ✨ Features
 
-- [About](#about)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-- [Built Using](#built-using)
-- [Authors](#authors)
-- [License](#license)
-
----
-
-## 🧐 About <a name="about"></a>
-
-Pizzeria is a **full-stack MEAN web application** where users can order pizzas online. Key features include:
-
-- Browse pizzas on the Home page with an overview of the pizzeria.
-- Select pizzas from the menu.
-- Customize pizzas with different toppings and ingredients.
-- Manage orders using the Shopping Cart page.
-- Demonstrates full-stack skills including database integration, REST APIs, and responsive front-end design.
+✅ Browse available pizzas
+✅ Build your own pizza with toppings
+✅ Add / Remove items from cart
+✅ Dynamic price calculation
+✅ Order summary & checkout flow
+✅ Responsive user interface
+✅ Error & page routing handling
 
 ---
 
-## 🖼️ Screenshots <a name="screenshots"></a>
+## 🏆 Skills Demonstrated
 
-<details>
-  <summary>Click to view screenshots</summary>
+### Frontend
 
-### Home Page
-![Home](https://user-images.githubusercontent.com/71023483/166135230-ede1247a-ed20-4f01-a2e1-ecd3a7d7029e.jpeg)
+* Angular
+* TypeScript
+* HTML5 & CSS3
+* Bootstrap
+* Responsive Design
+* Angular Routing & Services
 
-### Order Pizza
-![Order Pizza](https://user-images.githubusercontent.com/71023483/166135257-60d37a89-092a-4cf1-90c8-505b87f70cad.jpeg)
+### Backend
 
-### Build Your Pizza
-![Build Pizza](https://user-images.githubusercontent.com/71023483/166135268-f73f62c6-4b74-4991-a234-36da9751b11f.jpeg)
+* Node.js
+* Express.js
+* REST API Development
 
-### Shopping Cart
-![Shopping Cart](https://user-images.githubusercontent.com/71023483/166135280-bdf4f347-5464-4de9-ad5f-e685c29f4bfd.jpeg)
+### Database
 
-</details>
+* MongoDB
+* Mongoose ODM
+
+### Tools & Practices
+
+* Git & GitHub
+* npm
+* Angular CLI
+* MVC Architecture
 
 ---
 
-## 🏁 Getting Started <a name="getting-started"></a>
+## ⚙️ Getting Started
 
-Follow these instructions to run the project locally.
+Follow the steps below to run the application locally.
 
-### Prerequisites
+---
 
-- **Git** – [Download Git](https://git-scm.com/downloads)  
-- **Node.js & npm** – [Download Node.js](https://nodejs.org/en/download/)  
-- **MongoDB** – [Download MongoDB](https://www.mongodb.com/docs/manual/installation/)  
-- **Angular CLI** – Install globally after Node.js:
+### ✅ Prerequisites
+
+* Git
+* Node.js & npm
+* MongoDB
+* Angular CLI
+
+Install Angular CLI globally:
+
 ```bash
 npm install -g @angular/cli
+```
+
+---
+
+## 🔧 Installation
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/<your-username>/Pizzeria.git
+cd Pizzeria
+```
+
+---
+
+### 2️⃣ Start Backend Server
+
+```bash
+cd pizserver
+npm install
+npm start
+```
+
+Backend runs at:
+
+```
+http://localhost:3000
+```
+
+---
+
+### 3️⃣ Start Frontend Application
+
+Open another terminal:
+
+```bash
+cd pizclient
+npm install
+ng serve
+```
+
+Frontend runs at:
+
+```
+http://localhost:4200
+```
+
+---
+
+## 📂 Project Structure
+
+```
+Pizzeria
+│
+├── pizclient        → Angular Frontend
+├── pizserver        → Node.js Backend
+└── Data             → Pizza & toppings data
+```
+
+---
+
+## 🔮 Future Improvements
+
+* User Authentication (JWT)
+* Online Payment Integration
+* Order History
+* Admin Dashboard
+* Docker Deployment
+* Cloud Hosting (AWS / Azure)
+
+---
+
+## 👩‍💻 Author
+
+**Anuhya P**
+Full Stack Developer | MEAN Stack | Angular | Node.js
+
+📌 Open to Software Developer Opportunities in the UK
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
